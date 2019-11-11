@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Calendar</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<h1>CALENDAR</h1>
+
+<div class="flex-general">
+	<div class="date-picker">
+		<div class="selected-date"></div>
+
+		<div class="dates">
+			<div class="month">
+				<div class="arrows prev-mth">&lt;</div>
+				<div class="mth"></div>
+				<div class="arrows next-mth">&gt;</div>
+			</div>
+
+			<div class="days"></div>
+		
+		</div>
+		
+
+	</div>
+	
+	<div class="container">
+		<button class="buttoncreaza" id="btc">Creaza Eveniment</button>
+		<button class="buttonvezi" id="btv">Vezi Evenimente</button>
+	</div>
+
+	<div class="popupcreaza" id="ppc">
+		<div class="popupcreaza-content">
+			<input type="date" placeholder="Data">
+			<input type="text" placeholder="Titlul">
+			<input type="text" placeholder="Descriere">
+			<button class="buttoninchide" id="btic1">Inchide</button>
+			<button class="buttoninchide" id="btic2">Creaza</button>
+		</div>
+	</div>
+
+	<div class="popupcreaza" id="ppv">
+		<div class="popupcreaza-content">
+			<p>22/12/2019 Doctor Appointment</p>
+			<button class="buttoninchide" id="btiv">Inchide</button>
+		</div>
+	</div>
+
+
+	
+	
+</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
